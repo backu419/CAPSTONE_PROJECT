@@ -1,0 +1,6 @@
+ERROR:root:[Errno 2] No such file or directory: 'sssss.txt'
+Traceback (most recent call last):
+  File "C:\CAPSTONE_PROJECT\Level5\loggin.py", line 11, in FileOpen
+    f=open("sssss.txt", "r")
+      ^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'sssss.txt'
